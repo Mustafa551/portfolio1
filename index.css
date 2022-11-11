@@ -6,6 +6,7 @@
 .folio{
     color: gold !important;
 }
+
 .anchor{
     /* margin-left: 25px; */
     padding-right: 25px;
@@ -80,9 +81,9 @@
 .navo{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
 }
-/* .footshd{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 2px inset;
-} */
+.footshd{
+    box-shadow: 0px -1px 2px #ffffff2a;
+}
 .bg{
     background-color: gold;
 }
@@ -92,6 +93,7 @@
 }
 .bo{
     border: 2px solid black !important;
+    padding: 12px 14px;
     /* background: black !important; */
 }
 .bo:hover{
@@ -163,4 +165,9 @@ textarea {
 }
 .brdr{
     border: 5px solid gold !important;
+}
+.profile{
+    height: 100% !important;
+    width: 70% !important;
+    opacity: .6 !important;
 }
